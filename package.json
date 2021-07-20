@@ -1,0 +1,27 @@
+{
+  "name": "starting-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./SCSS/main.scss:./css/style.css",
+    "sass-min": "sass --watch ./SCSS/main.scss:./css/style-min.css --style compressed",
+    "prefix": "postcss css/style.css --use autoprefixer -d css/prefixed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tirma59/DuboisAntony_4_01032021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "bugs": {
+    "url": "https://github.com/tirma59/DuboisAntony_4_01032021/issues"
+  },
+  "homepage": "https://github.com/tirma59/DuboisAntony_4_01032021#readme",
+  "dependencies": {
+    "color": "^4.0.0",
+    "sass-colors": "^1.0.14",
+    "simple-colors-scss": "^0.4.0"
+  }
+}
