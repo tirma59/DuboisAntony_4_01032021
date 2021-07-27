@@ -1449,7 +1449,9 @@ img {
 .thumbnail > img {
   display: block;
   max-width: 100%;
-  height: auto;
+  height: 100%;
+  width: 100%;
+  
 }
 
 .img-rounded {
@@ -11827,6 +11829,13 @@ button {
 a:hover {
   text-decoration: none;
   cursor: pointer;
+}
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 3px dashed #000 !important;
 }
 
 #page-loading-blocs-notifaction {

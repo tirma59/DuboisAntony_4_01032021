@@ -17,6 +17,12 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 3px dashed #000 !important;
+}
 
 #page-loading-blocs-notifaction {
     position: fixed;
