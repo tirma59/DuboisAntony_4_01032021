@@ -1449,9 +1449,7 @@ img {
 .thumbnail > img {
   display: block;
   max-width: 100%;
-  height: 100%;
-  width: 100%;
-  
+  height: auto;
 }
 
 .img-rounded {
@@ -12569,6 +12567,8 @@ h4 {
 
 .portfolio-thumb {
   margin-bottom: 24px;
+  width: 100%;
+  height: 100%;
 }
 
 .portfolio-row {
@@ -12603,7 +12603,7 @@ h4 {
 }
 
 .tc-white {
-  color: #F3976C !important;
+  color: #000 !important;
 }
 
 .btn-atomic-tangerine {
@@ -12886,6 +12886,10 @@ p,
     height: 320px;
   }
 }
+.col-sm-6_contact {
+  font-size: 20px;
+}
+
 @media (max-width: 400px) {
   .bloc {
     padding-left: 0;
